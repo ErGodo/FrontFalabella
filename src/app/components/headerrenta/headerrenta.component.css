@@ -1,0 +1,46 @@
+.header
+    {
+        height: 90px;
+        background-color: gray; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, white, #F6F2F2);
+        text-align: center;
+    }
+
+.logotipo{
+   top: 30px; 
+}
+
+.icono{
+    color: white;
+    margin-right: 3em;
+    text-align: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+p{
+    float: left;
+    margin-left: 3em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 1023px){
+ .header{
+   width:auto;
+   text-align: center;
+   top:0.5em;
+ }
+  .logotipo{
+    align-items: center;
+  }
+
+  .menu{
+    display: none;
+  }
+}

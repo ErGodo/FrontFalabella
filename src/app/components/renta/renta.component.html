@@ -1,0 +1,46 @@
+<app-headerrenta></app-headerrenta>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <div class="backfalabella">
+             
+              
+              <div class="boxplan traslate">
+              
+                  <h2 class="mt-5 text-left verde">Ayúdenos</h2>
+                  <h2 class="mt-5 textonegro">con unos </h2>
+                  <h2 class="text-left ml-5">datos más</h2>
+                  
+                  
+                  
+                  <div class="texto">
+                      <p class="mt-5">Porque te queremos dar una oferta hecha a la  medida para ti,
+                        necesitamos saber un poco más de ti.
+                         </p>
+                    </div>
+                                       
+                    <form class="mt-3" [formGroup]="formRenta" (ngSubmit)="enviar()" novalidate >
+                     <div class="form-group mt-2">
+                       
+                      <div class="label">
+                        <label for="renta">¿Cúal es tu renta líquida/ingreso mensual?</label>
+                      </div> 
+                    
+                      <input type="text" required formControlName="renta" class="form-control input" id="renta"  placeholder="Ej. $400.000">
+                      <div class="text-danger mb-3"
+                      *ngIf="formRenta.get('renta').errors &&
+                            formRenta.get('renta').touched">
+                          La Renta es requerida
+                      </div>
+                    
+                    </div>
+
+                     <button type="submit" [disabled]="formRenta.invalid" class="btn btn-success boton mt-4 mb-1" >Continuar</button>
+                   </form>
+                 </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>

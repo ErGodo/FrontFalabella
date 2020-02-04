@@ -1,0 +1,103 @@
+.backfalabella{
+    background-image: url("../../../assets/image/fondo-renta.jpg");
+    width: 1250px;
+    height: 600px;
+    align-self: left;
+    transform: translate(30px, 0px);
+}
+
+.boxplan{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0px 2px 38px 0px rgba(0, 0, 0, 0.07);
+    height: 450px;
+    width: 400px;
+    transform: traslate(100px, 300px);
+    overflow: hidden;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.boxpublicidad{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0px 2px 38px 0px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 650px;
+    transform: traslate(100px, 300px);
+    overflow: hidden;
+    margin-bottom: 3em;
+    text-align: center;
+    opacity:0.6;
+}
+
+.ofertas{
+    float: left;
+    margin-left: 0px;
+    margin-top: 1em;
+    vertical-align: middle;
+}
+
+.imagesOfertas{
+    width: 60px;
+    opacity: 1;
+    vertical-align: middle;
+}
+
+.verde{
+    color: green;
+    float: left;
+   margin-left: 1.5em;
+   margin-right: -1.5em;
+}
+
+.textosofertas{
+    float: right;
+}
+
+
+
+.textonegro{
+    margin-left: -5px;
+}
+
+.traslate{
+    transform: translate(700px,100px);
+}
+
+.traslate2{
+    transform: translate(4em, 300px);
+}
+
+.traslateonline{
+    transform: translate(0px, 100px);
+}
+
+.input{
+    width: 75%;
+    margin-left: 3em;
+}
+
+.label{
+    text-align: left;
+    margin-left: 3em;
+}
+
+.boton{
+    width: 15em;
+    margin-bottom: 2em;
+   
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    margin-left: 3em;
+}
+
+.texto{
+    text-align: left;
+    margin-left: 3em;
+}
